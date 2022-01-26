@@ -30,7 +30,6 @@ class PostCreateType extends AbstractType
             ])
             ->add('region', EntityType::class,[
                 'class' => Region::class,
-                'mapped' => false,
                 'choice_label'  => 'name',
                 'label' => 'Région',
                 'placeholder'   => 'Région'
